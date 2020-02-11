@@ -1,0 +1,3 @@
+interface ParentElement {
+  children?: JSX;
+}
