@@ -1,0 +1,12 @@
+.nav {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: wheat;
+  z-index: 20;
+}
+
+.nav_style {
+  background: #131313be;
+}
