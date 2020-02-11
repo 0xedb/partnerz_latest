@@ -1,3 +1,8 @@
-const Index = () => <div>Hello</div>;
+import Top from "../components/index/Top";
+const Index = () => (
+  <>
+    <Top />
+  </>
+);
 
 export default Index;
