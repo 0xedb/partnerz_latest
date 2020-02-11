@@ -2,13 +2,22 @@
   height: 50px;
   width: 100%;
   position: fixed;
-  top: 0; 
+  top: 0;
   z-index: 20;
+  background: #fafafa0a;
   backdrop-filter: blur(1px);
-  transition: all 0.3s ease;
+  transition: backdrop-filter 0s ease;
 }
 
 .nav_style {
   background: #131313be;
   backdrop-filter: blur(4px);
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 90%;
+  transform: translate(-50%, -50%);
 }

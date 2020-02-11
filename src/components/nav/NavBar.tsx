@@ -11,7 +11,16 @@ const NavBar = () => {
         : setNavStyle(null);
     });
   });
-  return <nav className={`${style.nav} ${navStyle}`}>adfjdasf</nav>;
+  return (
+    <nav className={`${style.nav} ${navStyle}`}>
+      adfjdasf
+      <img
+        className={style.logo}
+        src="/images/partnerz_logo.svg"
+        alt="partnerz logo"
+      />
+    </nav>
+  );
 };
 
 export default NavBar;
