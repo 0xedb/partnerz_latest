@@ -8,7 +8,7 @@ const Index = () => (
     </HeadMeta>
     <NavBar />
     <Top />
-    <div style={{ height: "400px" }}>more</div>
+    <div style={{ height: "700px" }}>more</div>
   </>
 );
 
