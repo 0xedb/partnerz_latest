@@ -5,6 +5,7 @@ const Top = () => {
   return (
     <div className={style.top}>
       top here 
+      <div className={style.text}>...</div>
     </div>
   );
 };
