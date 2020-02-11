@@ -1,7 +1,8 @@
- 
+import style from  './css/top.module.css'
+
 const Top = () => {
   return (
-    <div>
+    <div className={style.top}>
       top here
     </div>
   );
