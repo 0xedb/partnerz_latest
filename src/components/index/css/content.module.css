@@ -1,0 +1,19 @@
+.content {
+  padding-top: 60px;
+  position: relative;
+}
+.tag {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.tag::after {
+  content: "";
+  height: 8px;
+  display: block;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(to right top, #31bd96, #8945b3);
+}
