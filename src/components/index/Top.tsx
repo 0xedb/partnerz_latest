@@ -4,11 +4,11 @@ import Stock from "../stock/Stock";
 const Top = () => {
   return (
     <div className={style.top}>
-      <div className={style.text}>
+      <div className={`${style.text} center_t`}>
         <h2>We're the Financial Architects</h2>
         <p>
-          At Partnerz, we engineer and bring to life the financial goals and
-          aspirations of hardworking people
+          Engineering and bringing to life the financial goals and aspirations
+          of hardworking people
         </p>
       </div>
     </div>
