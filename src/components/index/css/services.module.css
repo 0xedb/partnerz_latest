@@ -1,24 +1,29 @@
-.services {  
+.services {
   column-fill: balance;
   background: rgb(250, 225, 114);
   margin: 0 auto;
-  max-width: 950px;
-  column-gap: 10px; 
+  max-width: 1200px;
+  column-gap: 30px;
+  padding: 10px;
 }
 
 .service {
   position: relative;
   background: rgb(5, 128, 107);
-  margin: 8px;;  
-  
+  margin: 8px;
 }
 
-/* .services > div { 
-  width: 90%;
-  background: rgb(104, 28, 28);
-  height: 300px;
-  margin: 10px;
-} */
+.filler {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  top: 0;
+  background: crimson;
+}
+
+ .fill {
+  height: 100%;
+}
 
 @media (min-width: 750px) {
   .services {
