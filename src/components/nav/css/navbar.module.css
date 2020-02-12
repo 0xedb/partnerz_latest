@@ -4,14 +4,9 @@
   position: fixed;
   top: 0;
   z-index: 20;
-  background: #fafafa02;
-  backdrop-filter: blur(1x);
+  background: #131313ea;
+  backdrop-filter: blur(1px);
   transition: backdrop-filter 0s ease;
-}
-
-.nav_style {
-  background: #131313be;
-  backdrop-filter: blur(4px);
 }
 
 .logo {
@@ -22,9 +17,9 @@
   transform: translate(-50%, -50%);
 }
 
-
 .stock {
   position: absolute;
   top: 50px;
-  width: 100%; 
+  width: 100%;
+  background:inherit;
 }
