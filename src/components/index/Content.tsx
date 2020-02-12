@@ -5,7 +5,15 @@ const Content = () => {
       <div className={`${style.tag} center_t`}>
         <p> Financial stability for everyone, by the experts</p>
       </div>
-      <div>adsffkasdl</div>
+      <p className={style.firm}>
+        Partnerz FP is an advisory firm with a daring quest to use financial
+        structures to affect lives positively. We are responsible for crafting
+        world-class financial solutions that touches individuals, corporates,
+        and governments. Partnerz FP is an advisory firm with a daring quest to
+        use financial structures to affect lives positively. We are responsible
+        for crafting world-class financial solutions that touches individuals,
+        corporates, and governments.
+      </p>
     </section>
   );
 };

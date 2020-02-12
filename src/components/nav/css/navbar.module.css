@@ -1,5 +1,5 @@
 .nav {
-  height: 50px;
+  height: 40px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -13,13 +13,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 90%;
+  height: 85%;
   transform: translate(-50%, -50%);
 }
-
-.stock {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-  background:inherit;
-}
+ 

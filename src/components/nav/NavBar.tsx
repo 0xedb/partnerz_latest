@@ -1,6 +1,6 @@
 import Link from "next/link";
 import style from "./css/navbar.module.css";
-import Stock from "../stock/Stock";
+ 
 
 const NavBar = () => {
   return (
@@ -14,9 +14,6 @@ const NavBar = () => {
           />
         </a>
       </Link>
-      <div className={style.stock}>
-        <Stock />
-      </div>
     </nav>
   );
 };

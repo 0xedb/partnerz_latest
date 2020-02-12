@@ -11,6 +11,9 @@ const Top = () => {
           of hardworking people
         </p>
       </div>
+      <div className={style.stock}>
+        <Stock />
+      </div>
     </div>
   );
 };

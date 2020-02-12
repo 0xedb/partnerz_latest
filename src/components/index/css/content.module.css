@@ -10,10 +10,21 @@
 
 .tag::after {
   content: "";
-  height: 8px;
+  height: 4px;
   display: block;
   border-radius: 8px;
   width: 80%;
   margin: 0 auto;
   background: linear-gradient(to right top, #31bd96, #8945b3);
+}
+
+.firm {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.firm::before {
+  content: url("https://api.iconify.design/vaadin:quote-left.svg");
+  display: block;
+  margin: 0 auto;
 }

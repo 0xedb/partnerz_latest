@@ -1,5 +1,6 @@
 .stock {
+  padding: 1px auto;
   width: 100%;
-  height: 48px;
+  height: 40px;
   border-style: none;
 }
