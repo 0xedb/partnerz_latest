@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import style from "./css/navbar.module.css";
 
@@ -13,12 +14,15 @@ const NavBar = () => {
   });
   return (
     <nav className={`${style.nav} ${navStyle}`}>
-      adfjdasf
-      <img
-        className={style.logo}
-        src="/images/partnerz_logo.svg"
-        alt="partnerz logo"
-      />
+      <Link href="/">
+        <a>
+          <img
+            className={style.logo}
+            src="/images/partnerz_logo.svg"
+            alt="partnerz logo"
+          />
+        </a>
+      </Link>
     </nav>
   );
 };
