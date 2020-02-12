@@ -2,6 +2,7 @@ import Top from "../components/index/Top";
 import HeadMeta from "../components/meta/HeadMeta";
 import NavBar from "../components/nav/NavBar";
 import Content from "../components/index/Content";
+import Services from "../components/index/Services";
 const Index = () => (
   <>
     <HeadMeta>
@@ -10,6 +11,7 @@ const Index = () => (
     <NavBar />
     <Top />
     <Content />
+    <Services />
     <div style={{ height: "700px" }}>more</div>
   </>
 );

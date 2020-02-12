@@ -6,7 +6,7 @@ html,
 body {
   min-height: 100vh;
   width: 100vw;
-  min-width: 310px; 
+  min-width: 310px;
   scroll-behavior: smooth;
 }
 
@@ -14,4 +14,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

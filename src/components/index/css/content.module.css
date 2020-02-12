@@ -1,11 +1,12 @@
 .content {
-  padding-top: 60px;
+  padding: 100px 0;
   position: relative;
 }
 .tag {
   position: relative;
   display: inline-block;
   text-align: center;
+  padding: 0 5%;
 }
 
 .tag::after {

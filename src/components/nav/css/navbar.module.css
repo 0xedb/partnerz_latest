@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   z-index: 20;
-  background: #131313ea;
+  background: #171717fa;
   backdrop-filter: blur(1px);
   transition: backdrop-filter 0s ease;
 }
@@ -16,4 +16,3 @@
   height: 85%;
   transform: translate(-50%, -50%);
 }
- 
