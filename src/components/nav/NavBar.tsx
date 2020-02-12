@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import style from "./css/navbar.module.css";
+import Stock from "../stock/Stock";
 
 const NavBar = () => {
   const [navStyle, setNavStyle] = useState(null);
@@ -23,6 +24,9 @@ const NavBar = () => {
           />
         </a>
       </Link>
+      <div className={`${style.stock} ${navStyle}`}>
+        <Stock />
+      </div>
     </nav>
   );
 };

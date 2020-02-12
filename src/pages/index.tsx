@@ -6,7 +6,7 @@ const Index = () => (
     <HeadMeta>
       <title>Partnerz FP Limited | Your Financial Architects</title>
     </HeadMeta>
-    <NavBar />
+    <NavBar /> 
     <Top />
     <div style={{ height: "700px" }}>more</div>
   </>
