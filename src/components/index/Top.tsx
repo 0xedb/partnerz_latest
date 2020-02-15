@@ -12,7 +12,7 @@ const Top = () => {
         </p>
       </div>
       <div className={style.stock}>
-        <Stock />
+       
       </div>
     </div>
   );
