@@ -5,7 +5,7 @@ const Content = () => {
       <p className={style.tag}>
         Financial stability for everyone, by the experts
       </p>
-      <p>
+      <p className={style.statement}>
         Partnerz FP is an advisory firm with a daring quest to use financial
         structures to affect lives positively. We are responsible for crafting
         world-class financial solutions that touches individuals, corporates,
