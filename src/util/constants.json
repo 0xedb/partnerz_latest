@@ -1,7 +1,7 @@
 {
   "images": {
     "menu": "https://api.iconify.design/jam:menu.svg?color=white&height=34",
-    "close": "https://api.iconify.design/jam:close.svg"
+    "close": "https://api.iconify.design/jam:close.svg?color=white&height=34"
   },
   "services": [
     {
