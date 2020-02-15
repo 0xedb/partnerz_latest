@@ -1,5 +1,6 @@
 import style from "./css/top.module.css";
 import CONSTANTS from '../../util/constants.json'
+import Stock from '../stock/Stock';
 
 const Top = () => {
   return (
@@ -14,6 +15,7 @@ const Top = () => {
           of hardworking people
         </p>
       </div>
+      <Stock />
     </div>
   );
 };

@@ -11,11 +11,11 @@ const Index = () => (
     </HeadMeta>
     <NavBar />
     <Top />
-    <Stock />
+   
     <Content />
   </>
 );
 
 export default Index;
-//
+// <Stock />
 //     <Services />
