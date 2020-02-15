@@ -26,3 +26,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+#page {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+}

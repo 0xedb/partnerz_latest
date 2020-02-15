@@ -3,9 +3,11 @@ import HeadMeta from "../components/meta/HeadMeta";
 import NavBar from "../components/nav/NavBar";
 import Content from "../components/index/Content";
 import Services from "../components/index/Services";
-import Stock from "../components/stock/Stock";
+import Footer from "../components/footer/Footer";
+import Page from "../components/page/Page";
+
 const Index = () => (
-  <>
+  <Page> 
     <HeadMeta>
       <title>Partnerz FP Limited | Your Financial Architects</title>
     </HeadMeta>
@@ -13,7 +15,8 @@ const Index = () => (
     <Top />
     <Content />
     <Services />
-  </>
+    <Footer />
+  </Page>
 );
 
 export default Index;
