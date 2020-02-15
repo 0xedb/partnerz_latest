@@ -1,8 +1,24 @@
 .content {
-  padding: 100px 0;
-  position: relative;
+  width: 100%;
+  padding-top: 90px;
+  position: absolute;
 }
-.tag {
+
+.content p {
+  text-align: center;
+}
+
+.tag::after {
+  content: "";
+  height: 4px;
+  display: block;
+  border-radius: 8px;
+  width: 20%;
+  margin: 20px auto;
+  background: linear-gradient(to right top, #31bd96, #8945b3);
+}
+
+/* .tag {
   position: relative;
   display: inline-block;
   text-align: center;
@@ -28,4 +44,4 @@
   content: url("https://api.iconify.design/vaadin:quote-left.svg");
   display: block;
   margin: 0 auto;
-}
+} */

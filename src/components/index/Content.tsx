@@ -1,11 +1,11 @@
 import style from "./css/content.module.css";
 const Content = () => {
   return (
-    <section className={style.content}>
-      <div className={`${style.tag} center_t`}>
-        <p> Financial stability for everyone, by the experts</p>
-      </div>
-      <p className={style.firm}>
+    <section className={`sec ${style.content}`}>
+      <p className={style.tag}>
+        Financial stability for everyone, by the experts
+      </p>
+      <p>
         Partnerz FP is an advisory firm with a daring quest to use financial
         structures to affect lives positively. We are responsible for crafting
         world-class financial solutions that touches individuals, corporates,
@@ -19,3 +19,10 @@ const Content = () => {
 };
 
 export default Content;
+
+// <div className={`${style.tag} center_t`}>
+//         <p> </p>
+//       </div>
+//       <p className={style.firm}>
+
+//       </p>

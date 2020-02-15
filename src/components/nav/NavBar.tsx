@@ -1,10 +1,10 @@
 import Link from "next/link";
 import style from "./css/navbar.module.css";
- 
+import CONSTANTS from "../../util/constants.json";
 
 const NavBar = () => {
   return (
-    <nav className={style.nav}>
+    <nav className={`sec ${style.nav}`}>
       <Link href="/">
         <a>
           <img
@@ -14,6 +14,9 @@ const NavBar = () => {
           />
         </a>
       </Link>
+      <div>
+        <img className={`center_t ${style.menu}`} src={CONSTANTS.images.menu} />
+      </div>
     </nav>
   );
 };
