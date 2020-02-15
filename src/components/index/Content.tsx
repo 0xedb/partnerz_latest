@@ -4,7 +4,7 @@ import CONSTANTS from "../../util/constants.json";
 const Content = () => {
   return (
     <section className={`sec ${style.content}`}>
-      <p>Financial stability for everyone, by the experts</p>
+      <h3>Financial stability for everyone, by the experts</h3>
       <div className={`${style.quote} centered`}>
         <img src={CONSTANTS.images.quote} alt="quote" />
       </div>

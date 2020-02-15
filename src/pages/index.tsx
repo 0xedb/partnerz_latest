@@ -12,9 +12,10 @@ const Index = () => (
     <NavBar />
     <Top />
     <Content />
+    <Services />
   </>
 );
 
 export default Index;
 // <Stock />
-//     <Services />
+//
