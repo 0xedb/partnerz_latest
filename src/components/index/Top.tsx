@@ -1,8 +1,12 @@
 import style from "./css/top.module.css";
+import CONSTANTS from '../../util/constants.json'
 
 const Top = () => {
   return (
     <div className={`sec ${style.top}`}>
+      <div className={style.background}>
+        <img src={CONSTANTS.images.top_bg} alt="background" />
+      </div>
       <div className={`center_t ${style.text}`}>
         <h2>We're the Financial Architects</h2>
         <p>

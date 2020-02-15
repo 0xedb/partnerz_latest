@@ -13,12 +13,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 85%;
+  height: 75%;
   transform: translate(-50%, -50%);
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  filter: grayscale(0.8);
 }
 
 .menu {
   position: absolute;
   right: 20px;
-  left: unset !important; 
+  left: unset !important;
 }
