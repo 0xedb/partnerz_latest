@@ -5,4 +5,5 @@
   padding: 1px 0px;
   height: 48px;
   border-style: none;
+  z-index: 2;
 }

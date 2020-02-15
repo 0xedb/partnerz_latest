@@ -11,7 +11,6 @@ const Index = () => (
     </HeadMeta>
     <NavBar />
     <Top />
-   
     <Content />
   </>
 );
