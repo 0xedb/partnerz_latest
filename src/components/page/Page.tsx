@@ -1,6 +1,6 @@
 const Page = ({ children }: ParentElement) => {
   return (
-    <div id="page" className="sec">
+    <div id="page">
       {children}
     </div>
   );

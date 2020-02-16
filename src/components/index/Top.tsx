@@ -15,9 +15,10 @@ const Top = () => {
           of hardworking people
         </p>
       </div>
-      <Stock />
+      <Stock /> 
     </div>
   );
 };
 
 export default Top;
+ 

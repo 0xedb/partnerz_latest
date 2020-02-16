@@ -3,7 +3,7 @@
   width: 100%;
   background: #131313;
   padding: 1px 0px;
-  height: 48px;
+  height: var(--stock-height);
   border-style: none;
   z-index: 2;
 }
