@@ -3,7 +3,7 @@ import CONSTANTS from "../../util/constants.json";
 
 const Service = ({ head, pic, desc }: PartnerService) => {
   return (
-    <div> 
+    <div className={style.service}> 
       <img src={pic} alt={head} />
       <h3>{head}</h3>
       <p>{desc}</p>
