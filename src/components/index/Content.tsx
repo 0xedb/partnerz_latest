@@ -4,7 +4,7 @@ import Services from "./Services"
 
 const Content = () => {
   return (
-    <section className={`sec ${style.content}`}>
+    <section className={`sec centered ${style.content}`}>
       <h3>Financial stability for everyone, by the experts</h3>
       <div className={`${style.quote} centered`}>
         <img src={CONSTANTS.images.quote} alt="quote" />
