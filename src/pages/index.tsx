@@ -7,7 +7,7 @@ import Footer from "../components/footer/Footer";
 import Page from "../components/page/Page";
 
 const Index = () => (
-  <Page> 
+  <Page>
     <HeadMeta>
       <title>Partnerz FP Limited | Your Financial Architects</title>
     </HeadMeta>
