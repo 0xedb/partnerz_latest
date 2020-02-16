@@ -3,13 +3,13 @@
   column-gap: 20px; 
   margin: 0 auto; 
   max-width: 2000px;
-  width: 90%;
-  background: #6494edab;
+  width: 95%;
+  background: #0b0e13ab;
 }
 
 .service {
   position: relative;
-  background: rgb(5, 128, 107);
+  background: rgb(218, 218, 218);
   margin: 8px;
   display: inline-block;
   width: 90%;
