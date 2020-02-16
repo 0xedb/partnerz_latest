@@ -5,10 +5,11 @@
 
 html,
 body {
-  min-height: 100vh;
-  width: 100vw;
+  min-height: 100%;
+  width: 100%;
   min-width: 310px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
+  --nav-height: 40px;
 }
 
 .sec {
@@ -30,5 +31,6 @@ body {
 #page {
   position: relative;
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
+  background: blueviolet;
 }

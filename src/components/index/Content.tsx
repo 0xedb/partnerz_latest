@@ -1,10 +1,10 @@
 import style from "./css/content.module.css";
 import CONSTANTS from "../../util/constants.json";
-import Services from "./Services"
+import Services from "./Services";
 
 const Content = () => {
   return (
-    <section className={`sec centered ${style.content}`}>
+    <section className={`centered ${style.content}`}>
       <h3>Financial stability for everyone, by the experts</h3>
       <div className={`${style.quote} centered`}>
         <img src={CONSTANTS.images.quote} alt="quote" />
@@ -24,3 +24,4 @@ const Content = () => {
 };
 
 export default Content;
+// <Services />

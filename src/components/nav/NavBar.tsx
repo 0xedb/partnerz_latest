@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className={`sec ${style.nav}`}>
+      <nav className={style.nav}>
         <Link href="/">
           <a>
             <img

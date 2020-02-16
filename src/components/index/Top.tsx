@@ -4,7 +4,7 @@ import Stock from '../stock/Stock';
 
 const Top = () => {
   return (
-    <div className={`sec ${style.top}`}>
+    <div className={style.top}>
       <div className={style.background}>
         <img src={CONSTANTS.images.top_bg} alt="background" />
       </div>
