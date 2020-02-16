@@ -1,5 +1,6 @@
 import style from "./css/content.module.css";
 import CONSTANTS from "../../util/constants.json";
+import Services from "./Services"
 
 const Content = () => {
   return (
@@ -17,6 +18,7 @@ const Content = () => {
         for crafting world-class financial solutions that touches individuals,
         corporates, and governments.
       </p>
+      <Services />
     </section>
   );
 };
