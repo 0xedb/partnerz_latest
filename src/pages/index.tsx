@@ -11,7 +11,7 @@ const Index = () => (
       <title>Partnerz FP Limited | Your Financial Architects</title>
     </HeadMeta>
     <NavBar />
-    <Top /> <Content />
+    <Top /> 
     <Footer />
   </Page>
 );

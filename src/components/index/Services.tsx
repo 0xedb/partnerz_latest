@@ -14,11 +14,12 @@ const Service = ({ head, pic, desc }: PartnerService) => {
 const Services = () => {
   return (
     <section className={style.services}>
-      {CONSTANTS.services.map(service => (
-        <Service {...service} key={service.head} />
-      ))}
+      sss
     </section>
   );
 };
 
 export default Services;
+// {CONSTANTS.services.map(service => (
+//         <Service {...service} key={service.head} />
+//       ))}
