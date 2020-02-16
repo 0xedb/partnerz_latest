@@ -1,6 +1,7 @@
 import style from "./css/content.module.css";
 import CONSTANTS from "../../util/constants.json";
 import Services from "./Services";
+import Feedback from "./Feedback"
 
 const Content = () => {
   return (
@@ -8,7 +9,7 @@ const Content = () => {
       <h3>Financial stability for everyone, by the experts</h3>
       <div className={`${style.quote} centered`}>
         <img src={CONSTANTS.images.quote} alt="quote" />
-      </div>
+      </div> 
       <p className={style.statement}>
         Partnerz FP is an advisory firm with a daring quest to use financial
         structures to affect lives positively. We are responsible for crafting
@@ -19,6 +20,7 @@ const Content = () => {
         corporates, and governments.
       </p>
       <Services />
+      <Feedback />
     </section>
   );
 };

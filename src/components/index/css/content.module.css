@@ -4,8 +4,7 @@
   width: 100%;
   font-family: 'Work Sans', sans-serif;
   min-height: 35vh;
-  flex-flow: column;
-  background: wheat;;
+  flex-flow: column; 
 }
 
 .content p, .content h3 {
