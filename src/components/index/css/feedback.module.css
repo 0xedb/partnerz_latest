@@ -3,4 +3,11 @@
   background: #b5f5b3;
   height: 200px;
   width: 100%;
+  text-align: center;
+}
+
+.commentor {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
 }

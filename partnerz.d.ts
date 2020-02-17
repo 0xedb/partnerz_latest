@@ -1,4 +1,3 @@
-
 interface ParentElement {
   children?: JSX;
 }
@@ -11,4 +10,9 @@ interface PartnerService {
 
 interface OverlayProp {
   display: boolean;
+}
+
+interface FComment {
+  text: string;
+  pic: string;
 }
