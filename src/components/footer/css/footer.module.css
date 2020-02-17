@@ -1,8 +1,9 @@
 .footer {
-  background: #032c47;
+  background: #032c4775;
   position: relative;
   /* min-height: 10%; */
   width: 100%;
   bottom: 0;
-  height: 400px;
+  padding: 50px 0;
+  text-align: center;
 }

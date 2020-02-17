@@ -2,10 +2,11 @@ import style from "./css/footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={style.footer}>
-      footer hereCommodo elit consectetur consequat commodo enim sunt voluptate
-      ipsum qui elit labore. Cupidata ust under the United States, except in
-      Cases of Rebellion or Invasion the public Safety may require it.
+    <footer className={style.footer}> 
+      <address>
+        <div>Plot No. 21 Airport City, Accra</div>
+        <div>&copy; {new Date().getFullYear()} Partnerz FP Limited</div>
+      </address>
     </footer>
   );
 };
