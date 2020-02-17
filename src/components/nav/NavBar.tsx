@@ -28,7 +28,15 @@ const NavBar = () => {
           alt="menu"
           src={overlay ? CONSTANTS.images.close : CONSTANTS.images.menu}
         />
-        <img className={`center_t ${style.form}`} src={CONSTANTS.images.form} alt="form" />
+        <Link href="/form">
+          <a>
+            <img
+              className={`center_t ${style.form}`}
+              src={CONSTANTS.images.form}
+              alt="form"
+            />
+          </a>
+        </Link>
       </nav>
       <Overlay display={overlay} />
     </>
