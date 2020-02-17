@@ -1,0 +1,8 @@
+.contact {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background: darkcyan;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  z-index: 2;
+}
