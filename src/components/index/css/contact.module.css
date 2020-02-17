@@ -1,6 +1,7 @@
 .contact {
   position: relative;
-  height: 400px;
+  padding: 70px 0;
+  padding-top: 120px;
   width: 100%;
   background: darkcyan;
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
