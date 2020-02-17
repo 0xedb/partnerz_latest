@@ -1,9 +1,14 @@
 .contact {
   position: relative;
-  padding: 70px 0;
-  padding-top: 120px;
+  padding: 120px 0;
+  padding-top: 150px;
   width: 100%;
-  background: darkcyan;
+  background: #e0f7ad;
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   z-index: 2;
+}
+
+.contact button {
+  transform: translate(-50%);
+  border-radius: unset;
 }
