@@ -1,7 +1,12 @@
-.footer { 
-  position: relative; 
+.footer {
+  position: relative;
   width: 100%;
   bottom: 0;
   padding: 50px 0;
   text-align: center;
+}
+
+.footer a {
+  display: block;
+  text-decoration: none;
 }
