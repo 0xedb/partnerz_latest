@@ -1,8 +1,9 @@
 {
   "images": {
-    "menu": "https://api.iconify.design/jam:menu.svg?color=white",
+    "menu": "https://api.iconify.design/jam:menu.svg",
+    "form": "https://api.iconify.design/jam:book.svg",
     "quote": "https://api.iconify.design/gridicons:quote.svg",
-    "close": "https://api.iconify.design/jam:close.svg?color=white",
+    "close": "https://api.iconify.design/jam:close.svg",
     "top_bg": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   },
   "services": [

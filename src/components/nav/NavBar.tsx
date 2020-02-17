@@ -22,13 +22,13 @@ const NavBar = () => {
             />
           </a>
         </Link>
-        <div>
-          <img
-            className={`center_t ${style.menu}`}
-            onClick={handleOverlay}
-            src={overlay ? CONSTANTS.images.close : CONSTANTS.images.menu}
-          />
-        </div>
+        <img
+          className={`center_t ${style.menu}`}
+          onClick={handleOverlay}
+          alt="menu"
+          src={overlay ? CONSTANTS.images.close : CONSTANTS.images.menu}
+        />
+        <img className={`center_t ${style.form}`} src={CONSTANTS.images.form} alt="form" />
       </nav>
       <Overlay display={overlay} />
     </>

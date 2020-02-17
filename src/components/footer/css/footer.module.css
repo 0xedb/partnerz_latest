@@ -2,13 +2,17 @@
   position: relative;
   width: 100%;
   bottom: 0;
-  padding-top:150px;
+  padding-top: 150px;
   padding-bottom: 40px;
   text-align: center;
-  background:#c7c7c7;
+  background: #c7c7c7;
 }
 
 .footer a {
   display: block;
   text-decoration: none;
+}
+
+.footer address {
+  font-style: normal;
 }
