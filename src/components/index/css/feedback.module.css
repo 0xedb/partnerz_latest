@@ -1,13 +1,14 @@
 .feedback {
   position: relative;
-  background: #b5f5b3;
-  height: 200px;
+  background: #b5f5b3; 
   width: 100%;
   text-align: center;
+  padding: 70px 0;
 }
 
 .commentor {
   width: 100px;
   height: 100px;
+  margin-top: 20px;
   border-radius: 100%;
 }
