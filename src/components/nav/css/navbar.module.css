@@ -30,13 +30,14 @@
 .form {
   position: absolute;
   filter: invert(1);
+  transform: translate(0, -50%);
+  left: unset;
 }
 
 .menu {
-  left: 40px !important;
+  right: 40px !important;
 }
 
 .form {
-  right: 40px !important;
-  left: unset !important;
+  left: 40px !important;
 }
