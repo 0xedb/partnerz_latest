@@ -26,6 +26,10 @@
   max-width: 85%;
 }
 
+.service p {
+  font-size: 1.1em;
+}
+
 .service:hover,
 .service:active,
 .service:focus {

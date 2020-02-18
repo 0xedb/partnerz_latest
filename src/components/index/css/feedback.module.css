@@ -1,12 +1,12 @@
 .feedback {
   position: relative;
-  background: coral;
   width: 100%;
   text-align: center;
-  padding: 70px 0; 
+  padding: 70px 0;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
   top: 80px;
   z-index: 3;
+    background: linear-gradient(to top, #ff512f, #dd2476);
 }
 
 .commentor {
