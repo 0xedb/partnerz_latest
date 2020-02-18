@@ -6,7 +6,7 @@
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
   top: 80px;
   z-index: 3;
-    background: linear-gradient(to top, #ff512f, #dd2476);
+    background: aliceblue;
 }
 
 .commentor {
