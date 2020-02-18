@@ -1,10 +1,17 @@
 .content {
-  padding-top: 100px;
   position: relative;
   width: 100%;
   font-family: "Work Sans", sans-serif;
   min-height: 35vh;
   flex-flow: column;
+}
+
+.head {
+  padding: 150px 0px 60px;
+}
+
+.say {
+  background: wheat;
 }
 
 .content h3 {
@@ -17,7 +24,6 @@
   text-align: center;
   margin: 0 auto;
   max-width: 90%;
-  /* color: #f7fafc; */
 }
 
 .content:last-child {
