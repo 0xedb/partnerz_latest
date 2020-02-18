@@ -1,7 +1,7 @@
 .contact {
   position: relative;
   padding: 120px 0;
-  padding-top: 150px;
+  padding-top: 170px;
   width: 100%;
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   z-index: 2;
