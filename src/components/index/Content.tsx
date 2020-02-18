@@ -11,6 +11,7 @@ const Content = () => {
         Financial stability for everyone, by the experts
       </h3>
       <div className={style.say}>
+        <div className={style.say_img} />
         <div className={`${style.quote} centered`}>
           <img src={CONSTANTS.images.quote} alt="quote" />
         </div>

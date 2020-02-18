@@ -11,7 +11,19 @@
 }
 
 .say {
-  background: wheat; 
+  position: relative;
+  color: whitesmoke;
+}
+
+.say_img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: url("/images/work.jpg") no-repeat;
+  background-size: cover;
+  filter: brightness(0.2);
+  background-position: center -100px;
 }
 
 .content h3 {
@@ -24,6 +36,7 @@
   text-align: center;
   margin: 0 auto;
   max-width: 90%;
+  position: relative;
 }
 
 .content:last-child {
@@ -33,7 +46,7 @@
 .quote img {
   display: inline-block;
   height: 50px;
-  filter: contrast(0.2);
+  filter: contrast(0);
   padding-top: 25px;
 }
 
