@@ -7,9 +7,11 @@ import Contact from "./Contact";
 const Content = () => {
   return (
     <section className={`centered ${style.content}`}>
-      <h3 className={style.head}>
-        Financial stability for everyone, by the experts
-      </h3>
+      <div className={style.block}>
+        <h3 className={style.head}>
+          Financial stability for everyone, by the experts
+        </h3>
+      </div>
       <div className={style.say}>
         <div className={style.say_img} />
         <div className={`${style.quote} centered`}>
@@ -32,4 +34,4 @@ const Content = () => {
   );
 };
 
-export default Content; 
+export default Content;
