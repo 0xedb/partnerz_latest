@@ -25,7 +25,6 @@ const Content = () => {
           individuals, corporates, and governments.
         </p>
       </div>
-
       <Services />
       <Feedback />
       <Contact />
@@ -33,5 +32,4 @@ const Content = () => {
   );
 };
 
-export default Content;
-// <Services />
+export default Content; 

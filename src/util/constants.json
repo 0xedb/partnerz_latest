@@ -9,22 +9,22 @@
   "services": [
     {
       "head": "Financial Planning",
-      "pic": "",
+      "pic": "https://api.iconify.design/ic:outline-show-chart.svg?color=blueviolet",
       "desc": "Partnerz FP works with individual clients and employers to deliver cut-through financial planning services. We have been very instrumental in reshaping the lives of redundant bankers who suffered the banking crises by helping them build emergency funds beforehand."
     },
     {
       "head": "Investments",
-      "pic": "",
+      "pic": "https://api.iconify.design/uil:wallet.svg?color=blueviolet",
       "desc": "Diasporians looking to invest in the service sectors now have a trusted partner. We also saved GH₵1.6 million of clients money from the Menzgold-Bitcoin bust by asking them to withdraw or sell off. We believe we owe our clients that fiduciary responsibility"
     },
     {
       "head": "Scheme Administration",
-      "pic": "",
+      "pic": "https://api.iconify.design/cil:settings.svg?color=blueviolet",
       "desc": "Currently working with 19 different unions/associations/churches. With over 21,384 members under their belt, we are forgin a future for their membership using the very principles of financial planning at a large scale."
     },
     {
       "head": "Strategy Consulting",
-      "pic": "",
+      "pic": "https://api.iconify.design/ps:data-board.svg?color=blueviolet",
       "desc": "Gradually, we are becoming a household name in the starup ecosystem in Ghana. We have advised 12+ startups from ideation to funding, go-to-market strategies, and to first 1000 customers."
     }
   ]

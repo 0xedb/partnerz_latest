@@ -5,8 +5,10 @@ const Service = ({ head, pic, desc }: PartnerService) => {
   return (
     <div className={style.service}>
       <img src={pic} alt={head} />
-      <h3>{head}</h3>
-      <p>{desc}</p>
+      <div className='content'>
+        <h3>{head}</h3>
+        <p>{desc}</p>
+      </div>
     </div>
   );
 };
