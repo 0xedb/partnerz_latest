@@ -17,6 +17,12 @@
   border-radius: var(--radius);
 }
 
+.service:hover,
+.service:active,
+.service:focus {
+  transform: scale(1.05);
+}
+
 .service img {
   width: 40px;
   margin-left: 20px;
