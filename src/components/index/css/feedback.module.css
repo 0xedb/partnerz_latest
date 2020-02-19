@@ -3,9 +3,8 @@
   width: 100%;
   text-align: center;
   padding: 70px 0;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
-  top: 80px;
-  z-index: 3;
+  /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); */
+  top: 80px; 
   color: #3c2467;
   background: #fffafa;
 }

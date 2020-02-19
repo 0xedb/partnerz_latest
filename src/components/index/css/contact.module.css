@@ -1,10 +1,8 @@
-.contact {
-  position: relative;
+.contact { 
   padding: 120px 0;
   padding-top: 170px;
   width: 100%;
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
-  z-index: 2;
+  /* clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%); */
   color: #f5f5f5;
   background: #d45197;
   font-size: 1.4em;
