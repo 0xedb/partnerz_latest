@@ -1,6 +1,6 @@
 import Link from "next/link";
 import style from "./css/contact.module.css";
-import { Button } from "antd";
+import { Button } from "carbon-components-react";
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
       <p>Begin your financial journey here with us</p>
       <Link href="/form">
         <a>
-          <Button size="large" className="center_t">
+          <Button className="center_t">
             Start
           </Button>
         </a>

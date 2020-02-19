@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "carbon-components": "^10.9.3",
     "carbon-components-react": "^7.9.3",
     "lazysizes": "^5.2.0",
     "next": "^9.2.1",
