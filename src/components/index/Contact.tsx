@@ -7,11 +7,13 @@ const Contact = () => {
     <div className={style.contact}>
       <p>A journey of a thousand miles begins with a single step</p>
       <p>Begin your financial journey here with us</p>
-      <Link href="/form">
-        <a>
-          <PrimaryButton text="Start" className="center_t" />
-        </a>
-      </Link>
+      <div className="centered">
+        <Link href="/form">
+          <a>
+            <PrimaryButton text="Start" />
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };

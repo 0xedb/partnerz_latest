@@ -10,8 +10,7 @@
   font-size: 1.4em;
 }
 
-.contact button {
-  transform: translate(-50%);
+.contact button { 
   border-radius: unset;
   margin-top: 16px;
   height: 50px;
