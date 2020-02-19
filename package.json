@@ -10,7 +10,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "antd": "^3.26.11",
     "carbon-components-react": "^7.9.3",
     "lazysizes": "^5.2.0",
     "next": "^9.2.1",
