@@ -5,10 +5,13 @@
   width: 100%;
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   z-index: 2;
-  background: #e861aa;
+  color: #f5f5f5;
+  background: #b34982;
+  font-size: 1.4em;
 }
 
 .contact button {
   transform: translate(-50%);
   border-radius: unset;
+  margin-top: 16px;
 }
