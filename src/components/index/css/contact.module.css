@@ -14,4 +14,8 @@
   transform: translate(-50%);
   border-radius: unset;
   margin-top: 16px;
+  height: 50px;
+  width: 190px;
+  font-size: 1.05em;
 }
+ 
