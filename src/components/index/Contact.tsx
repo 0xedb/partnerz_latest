@@ -1,6 +1,6 @@
 import Link from "next/link";
 import style from "./css/contact.module.css";
-import { Button } from "office-ui-fabric-react";
+import { PrimaryButton } from "office-ui-fabric-react";
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
       <p>Begin your financial journey here with us</p>
       <Link href="/form">
         <a>
-          <Button text="Start" className="center_t" />
+          <PrimaryButton text="Start" className="center_t" />
         </a>
       </Link>
     </div>
