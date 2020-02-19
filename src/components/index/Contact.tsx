@@ -14,7 +14,7 @@ const Contact = () => {
           </Button>
         </a>
       </Link>
-    </div>
+    </div> 
   );
 };
 
