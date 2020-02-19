@@ -22,6 +22,7 @@
 .service:active,
 .service:focus {
   transform: translateY(-2%);
+  filter: hue-rotate(45deg);
 }
 
 .service img {
