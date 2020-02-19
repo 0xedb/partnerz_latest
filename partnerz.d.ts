@@ -15,4 +15,5 @@ interface OverlayProp {
 interface FComment {
   text: string;
   pic: string;
+  commentor: string;
 }
