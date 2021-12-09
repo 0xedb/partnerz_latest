@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "lazysizes": "^5.2.0",
-    "next": "^9.2.1",
+    "next": "^11.1.3",
     "normalize.css": "^8.0.1",
     "office-ui-fabric-react": "^7.93.1",
     "react": "^16.12.0",
